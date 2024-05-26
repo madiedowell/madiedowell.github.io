@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+#title1 {
+    background-color: #020202;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    background-color: #ea0909;
+    color: white;
+    padding: 5px 0;
+    margin: 0;
+}
+
+h4 a {
+    color: #f4f4f9;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+h4 a:hover {
+    color: #ddd;
+}
+
+/* Main Content Styles */
+h2 {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
