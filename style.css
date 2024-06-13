@@ -43,7 +43,7 @@ h2 {
 }
 
 p {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     background: white;
@@ -51,9 +51,10 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 p.citation {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 1000px;
+    margin: 10px auto;
     padding: 20px;
     background: white;
     border-radius: 5px;
@@ -73,4 +74,20 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-container img {
+    margin-right: 10px; /* Reduce margin to bring the image and text closer */
 }
